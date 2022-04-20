@@ -46,7 +46,6 @@ const Home = () => {
       <div className="home-container__wrapper">
         <div className="home-container__header-text">
           <h1>Main Metrics</h1>
-          <h5>{metric.data && metric.data[0].avg_price_last_3days}</h5>
         </div>
         <div className="home-container__nav-buttons">
           <button className={viewData === 0 ? "active" : ""} onClick={lastHour}>
