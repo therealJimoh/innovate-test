@@ -1,0 +1,17 @@
+.help {
+  .help__summarytext {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #a0b0b9;
+  }
+  .help__text {
+    color: #2196f3 !important;
+    .help__span {
+      color: #4a4a4a !important;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+}

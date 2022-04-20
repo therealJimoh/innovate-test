@@ -1,0 +1,127 @@
+.home-container {
+  display: flex;
+  .home-container__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    .home-container__header-text {
+      margin-top: 20px;
+    }
+    .home-container__nav-buttons {
+      margin-top: 24px;
+      button {
+        width: 92px;
+        height: 32px;
+        background: #ffffff;
+        border: 1px solid #d9d9d9;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        color: #4a4a4a;
+      }
+      .active {
+        background-color: #2196f3;
+      }
+    }
+    .home-container__metrics {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 44px;
+    }
+    .home-container__benchmark-graph {
+      display: flex;
+      justify-content: space-between;
+      .benchmark-dotY {
+        background-color: #ffcc00;
+      }
+      .benchmark-dotP {
+        background-color: #5856d5;
+      }
+      .benchmark-dotB {
+        background-color: #2196f3;
+      }
+      .benchmark-dotA {
+        background-color: #a0b0b9;
+      }
+      margin: 35px 0;
+    }
+    .home-container__main-metrics {
+      display: flex;
+      flex-direction: column;
+      .main-metrics__container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .main-metrics__contentsearch {
+          display: flex;
+          flex: 1;
+          //   justify-content: space-between;
+          .main-metrics__oval {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background-color: #2196f3;
+            border-radius: 50%;
+            margin-right: 23px;
+          }
+          .main-metrics__contentsearch-result {
+            display: flex;
+            flex-direction: column;
+            .main-metrics-res {
+              display: flex;
+              margin-right: 5px;
+              .main-metrics-res__progress {
+                width: 37px;
+                height: 18px;
+                border-radius: 10px;
+                align-items: center;
+                font-weight: 600;
+                font-size: 12px;
+                text-align: center;
+                color: #ffffff;
+              }
+              .g-progress {
+                background-color: #8bc34a;
+              }
+              .r-progress {
+                background-color: #ff6a67;
+              }
+              h2 {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 28px;
+                color: #4a4a4a;
+                margin-right: 10px;
+              }
+              .main-metrics__clicks {
+                color: #ff6a67;
+              }
+            }
+          }
+        }
+        .main-metrics__container-traffic-check {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          .main-metrics__ctr {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 28px;
+            color: #ff6a67;
+          }
+        }
+      }
+      .main-metrics__spacer {
+        width: 80%;
+        margin: 24px auto;
+        border-bottom: 3px solid #eff1f4;
+      }
+    }
+  }
+}

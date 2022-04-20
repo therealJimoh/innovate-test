@@ -1,0 +1,74 @@
+.main-metrics {
+  display: flex;
+  flex-direction: column;
+  .main-metrics__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .main-metrics__contentsearch {
+      display: flex;
+      flex: 1;
+      //   justify-content: space-between;
+      .main-metrics__oval {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: #2196f3;
+        border-radius: 50%;
+        margin-right: 23px;
+      }
+      .main-metrics__contentsearch-result {
+        display: flex;
+        flex-direction: column;
+        .main-metrics-res {
+          display: flex;
+          margin-right: 5px;
+          .main-metrics-res__progress {
+            width: 37px;
+            height: 18px;
+            border-radius: 10px;
+            align-items: center;
+            font-weight: 600;
+            font-size: 12px;
+            text-align: center;
+            color: #ffffff;
+          }
+          .g-progress {
+            background-color: #8bc34a;
+          }
+          .r-progress {
+            background-color: #FF6A67;
+          }
+          h2 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 28px;
+            color: #4a4a4a;
+            margin-right: 10px;
+          }
+          .main-metrics__clicks {
+            color: #FF6A67;
+          }
+        }
+      }
+    }
+    .main-metrics__container-traffic-check {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      .main-metrics__ctr {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FF6A67;
+      }
+    }
+  }
+  .main-metrics__spacer {
+    width: 80%;
+    margin: 24px auto;
+    border-bottom: 3px solid #eff1f4;
+  }
+}

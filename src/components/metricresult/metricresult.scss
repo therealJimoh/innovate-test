@@ -1,0 +1,41 @@
+.metric-result {
+  display: flex;
+  .metric-result__search-text__time {
+    display: flex;
+    flex-direction: column;
+    .metric-result__prev {
+      display: flex;
+      align-items: center;
+      h6 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #4a4a4a;
+        margin-right: 10px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #4a4a4a;
+      }
+    }
+    .metric-result__present {
+      display: flex;
+      align-items: center;
+      h6 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #a0b0b9;
+        margin-right: 10px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #a0b0b9;
+      }
+    }
+  }
+}
